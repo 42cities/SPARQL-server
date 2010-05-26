@@ -2,8 +2,8 @@ Gem::Specification.new do |gem|
   
     gem.version            = File.read('VERSION').chomp
     gem.date               = File.mtime('VERSION').strftime('%Y-%m-%d')
-    gem.name               = 'sparql'
-    gem.rubyforge_project  = 'sparql'
+    gem.name               = 'sparql-server'
+    gem.rubyforge_project  = 'sparql-server'
     gem.homepage           = 'http://github.com/42cities/sparql-server/'
     gem.summary            = 'Naïve implementation of SPARQL server for RDFMapper'
     gem.description        = 'Naïve implementation of SPARQL server for RDFMapper'
